@@ -1,0 +1,19 @@
+.songlistplay{
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    width: 80% ;
+}
+.songitem{
+    width: 75%;
+    height: 60px;
+} 
+
+.songlistplay i {
+    padding: 0px;
+  
+}
