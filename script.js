@@ -34,7 +34,6 @@ masterplay.addEventListener('click', (e) => {
 })
 
 
-// changesong(songindex);
 
 audioelement.addEventListener('timeupdate', () => {
     // console.log('timeupdate');
@@ -65,7 +64,6 @@ playbuttons.forEach(button => {
             audioelement.play();
             masterplay.classList.remove('fa-play-circle');
             masterplay.classList.add('fa-pause-circle');
-            // console.log(button.classList[3]);
             gif.style.opacity = '1';
             changesong(songno);
             changetext(songno);
@@ -138,7 +136,6 @@ function changesong(songno) {
             songno = songno % 6;
 
             audioelement.src = `songs/${songno}.mp3`;
-            // console.log(audioelement.src);
             audioelement.play();
             audioelement.play();
             playbuttons.forEach(button => {
@@ -154,16 +151,9 @@ function changesong(songno) {
 
 }
 
-
-
-
-
-
-
 let songname = document.querySelectorAll('.songname');
-
 songname[0].innerText = 'Wariyo - Mortal';
 songname[1].innerText = 'Cielo - Huma-Huma';
 songname[2].innerText = 'Deaf Kev - Invicible';
-songname[3].innerText = 'Different Heaven and Ethide';
-songname[4].innerText = 'Janji-Heroes tonight-feat joining';
+songname[3].innerText = 'Different Heaven & Ethide';
+songname[4].innerText = 'Janji-Heroes tonight';
