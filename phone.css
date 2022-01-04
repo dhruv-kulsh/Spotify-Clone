@@ -8,12 +8,27 @@
 .container{
     width: 80% ;
 }
+
 .songitem{
-    width: 75%;
+    width: 95%;
     height: 60px;
+    background-color: whitesmoke;
+    opacity: 0.9;
+
 } 
 
 .songlistplay i {
     padding: 0px;
   
+}
+
+.songinfo{
+    position: absolute;
+    margin: auto;
+    left: 10%;
+    top: 14vh;
+}
+
+.bottom{
+    height: 24vh;
 }
